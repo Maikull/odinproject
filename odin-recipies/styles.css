@@ -2,6 +2,7 @@
     font-family: Consolas, sans-serif;
     text-align: center;
     color: #fff;
+    padding-top: 10px;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
@@ -13,10 +14,18 @@
 .image {
     display: block;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .text {
     font-family: Consolas, sans-serif;
     text-align: center;
     color: silver;
+}
+
+.homepage {
+    position: fixed;     
+    text-align: center;    
+    bottom: 10px; 
+    width: 100%;
 }
